@@ -2,12 +2,12 @@ package main
 
 import "fmt"
 
-// структура поля и её методы
+// Sudoku структура поля и её методы
 type Sudoku struct {
 	m [][]int
 }
 
-// Создание нового класса Sudoku
+// NewSudoku функция создание нового класса Sudoku
 func NewSudoku(m [][]int) *Sudoku {
 	s := new(Sudoku)
 	s.m = m

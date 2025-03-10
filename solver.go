@@ -4,6 +4,7 @@ import (
 	"errors"
 )
 
+// Solve method
 func (s *Sudoku) Solve() bool {
 	x, y, err := s.nextFreeCell()
 
